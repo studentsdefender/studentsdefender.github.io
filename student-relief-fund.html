@@ -22,6 +22,14 @@
 <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700&amp;subset=all' rel='stylesheet' type='text/css'>
 
 <!-- Stylesheet -->
+<link href="images/favicon/favicon.png" rel="shortcut icon" type="image/png">
+<link href="images/favicon/apple-touch-icon.png" rel="apple-touch-icon">
+<link href="images/favicon/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72">
+<link href="images/favicon/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114">
+<link href="images/favicon/apple-touch-icon-144x144.png" rel="apple-touch-icon" sizes="144x144">
+<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700&amp;subset=all' rel='stylesheet' type='text/css'>
+
+<!-- Stylesheet -->
 <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
 <link href="css/jquery-ui.min.css" rel="stylesheet" type="text/css">
 <link href="css/animate.css" rel="stylesheet" type="text/css">
@@ -33,17 +41,14 @@
 <link href="css/custom-bootstrap-margin-padding.css" rel="stylesheet" type="text/css">
 <link href="css/responsive.css" rel="stylesheet" type="text/css">
 
-
 <!-- external javascripts -->
 <script src="js/jquery-2.2.0.min.js"></script>
 <script src="js/jquery-ui.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jquery-plugin-collection.js"></script>
 
-
 </head>
 <body class="">
-<div class="body-overlay"></div>
 <div id="wrapper" class="clearfix">
   
   
@@ -55,16 +60,16 @@
           <div class="col-md-7">
             <div class="widget no-border m-0">
               <ul class="list-inline sm-text-center mt-5 mb-sm-15">                
-                <li class="m-0 pl-10 pr-10"> <i class="fa fa-envelope-o font-16 text-white"></i> <a class="text-white font-16" href="#">info@studentsdefender.org</a> </li>
+                <li class="m-0 pl-10 pr-10"> <i class="fa fa-envelope-o font-16 text-white"></i> <a class="text-white font-16" href="#">studentsdefender.org@gmail.com</a> </li>
 				
               </ul>
             </div>
           </div>
           <div class="col-md-5">
             <div class="widget no-border m-0">
-               <a class="bg-white p-5 font-16 pl-10 pr-10 mt-5 text-theme-colored pull-right sm-pull-none" href="student-relief-fund.html">Student Relief Fund</a>
+              <a class="bg-white p-5 font-16 pl-10 pr-10 mt-5 text-theme-colored pull-right sm-pull-none" href="reporting-incident.html">Report Incident</a>
 			   <ul class="social-icons icon-sm sm-text-center pull-right sm-pull-none mt-sm-15">
-                 <li><a href="https://www.facebook.com/studentsdefender.org/" target="_blank"><i class="fa fa-facebook text-white"></i></a></li>
+                <li><a href="https://www.facebook.com/studentsdefender.org/" target="_blank"><i class="fa fa-facebook text-white"></i></a></li>
                 <li><a href="#"><i class="fa fa-twitter text-white"></i></a></li>
                 
               </ul>
@@ -78,15 +83,21 @@
       <div class="header-nav-wrapper navbar-scrolltofixed bg-lightest">
         <div class="container">
           <nav>
-            <div id="menuzord-right" class="menuzord red"> <a class="menuzord-brand" href="javascript:void(0)"><img src="images/logo-wide.png" alt=""></a>
+            <div id="menuzord-right" class="menuzord red"> <a class="menuzord-brand" href="home.html">
+			<img src="images/logo-wide.png" alt=""></a>
               <ul class="menuzord-menu">
                 <li><a href="home.html">Home</a></li>
-                <li><a href="who-we-are.html">Who We Are</a></li>
-                <li><a href="what-we-do.html">What We Do</a></li>
-                <li><a href="benefits.html">Benefits</a></li>
-                <li><a href="how-we-work.html">How We Work</a></li>				
-                
-				<li><a href="reporting-incident.html">Report Incident</a>
+                <li><a href="who-we-are.html">Who We Are</a>
+					<ul class="dropdown">
+						<li><a href="our-leadership.html">Our Leadership</a></li>
+						<li><a href="our-well-wishers.html">Our Well Wishers</a></li>
+					</ul>
+				</li>
+                <li><a href="legal-team.html">Legal Team</a></li>
+				<li><a href="resources.html">Resources</a></li>
+				<li><a href="blog.html">Blog</a></li>
+				<li class="active"><a href="student-relief-fund.html">Student Relief Fund</a>
+				<li><a href="join-now.html">Join Now</a>
               </ul>
             </div>
           </nav>
@@ -120,13 +131,14 @@
       <div class="container">
         <div class="row">
           <div class="col-md-7">
-            <h3 class="mt-0">STUDENT RELIEF FUND</h3>
-            <p class="font-20" >The Students Defender- Student Relief Fund is designed to assist enrolled students with a financial emergency in the current term that is impacting their ability to stay on track towards graduation. Students must be either in danger of withdrawing due to an unexpected, temporary financial hardship resulting from an emergency or crisis situation; or struggling with debilitating financial circumstances which may impede their academic progress and ability to complete classes.</p>
+            <h3 class="mt-0">STUDENT <b>RELIEF FUND</b></h3>
+			<h3 class="author font-18 text-theme-colored mb-0">Financially Supported by <b>Youth For Pakistan</b>.</h3>
+            <p class="font-18" >The Students Defender- Student Relief Fund is designed to assist enrolled students with a financial emergency in the current term that is impacting their ability to stay on track towards graduation. Students must be either in danger of withdrawing due to an unexpected, temporary financial hardship resulting from an emergency or crisis situation; or struggling with debilitating financial circumstances which may impede their academic progress and ability to complete classes.</p>
             <h3>Guidelines for Funding</h3>
 			<ul  class="table-list bg-lightest">
-                  <li><i class="icon_check"></i><span class="font-18"> Student must be currently enrolled in any HEC recognized University. Grants are awarded on a one-time basis. Relief Fund will not be used for fees. Maximum Relief Fund is Rs.30,000.</span></li>
+                  <li><i class="icon_check"></i><span class="font-18"> Student must be currently enrolled in any HEC recognized University. Grants are awarded on a one-time basis. Relief Fund will not be used for fees. Maximum Relief Fund is Rs.25,000.</span></li>
                   <li><i class="icon_check"></i><span class="font-18"> The student’s academic record will be reviewed for commitment and progress. Although there is no minimum GPA or number of completed units required, the student’s record may be taken into consideration.</span></li>
-                  <li><i class="icon_check"></i><span class="font-18"> Need must be verified by a Youth for Pakistan Campus Management Board, Need must be unexpected, short-term or temporary, Fund will enable student to continue with immediate studies.</span></li>
+                  <li><i class="icon_check"></i><span class="font-18"> Need must be verified by a Youth for Pakistan Campus Management Board, <b>Need must be unexpected</b>, short-term or temporary, Fund will enable student to continue with immediate studies.</span></li>
 			</ul>
 			<a class="btn btn-dark btn-theme-colored" href="https://www.youthforpakistan.org/how-we-serve/students-defender/student-relief-fund/" target="_blank">Apply For Student Relief Fund</a>
             
@@ -150,7 +162,7 @@
               <div class="icon-box left media bg-lighter mb-0 mt-0 p-20"><a href="#" class="media-left pull-left mr-15 mt-5"><i class="fa fa-phone-square text-white font-30"></i></a>
                 <div class="media-body">
                   <h5 class="media-heading"><a class="text-white text-uppercase font-weight-600" href="i-need-help.html">I NEED HELP</a></h5>
-                  <p class="lineheight-20 text-white">If you are a student of any university and affected by sexual misconduct, bullying or harassment, we are able to provide support and advice.</p>
+                  <p class="lineheight-20 text-white">If you are a student of any university and affected by sexual misconduct, bullying or sexual harassment, we are able to provide support and advice.</p>
                 </div>
               </div>
             </div>
@@ -172,7 +184,7 @@
               <div class="icon-box left media bg-lighter mb-0 mt-0 p-20"> <a href="#" class="media-left pull-left mr-15 mt-5"> <i class="fa fa-life-ring text-white font-30"></i></a>
                 <div class="media-body">
                   <h5 class="media-heading"><a class="text-white text-uppercase font-weight-600" href="free-consultation.html">SUPPORT & ADVICE</a></h5>
-                  <p class="lineheight-20 text-white">For information on how to support someone you know who has experienced bullying or harassment at campus or off the campus.</p>
+                  <p class="lineheight-20 text-white">For information on how to support someone you know who has experienced bullying or sexual harassment at campus or off the campus.</p>
                 </div>
               </div>
             </div>
@@ -181,219 +193,6 @@
       </div>
     </section>
 	
-	 <!-- Section: Areas -->
-    <section>
-      <div class="container pb-30">
-        <div class="section-title title-border icon-bg">
-          <div class="row">
-            <div class="col-md-12">
-              <h5 class="mt-0 mb-0 text-uppercase">Our</h5>
-			  <h4 class="mt-0 page-title"><i class="fa fa-legal"></i>Common/Criminal Student Conduct Violations</h4>
-              <p>Whether you did what you are accused of or not, we know how to protect your rights. Before you agree to a sanction or try to resolve an accusation on your own, call Students Defender for a FREE consultation.</p>
-            </div>
-          </div>
-        </div>
-        <div class="section-content">
-          <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
-              <div class="box-hover-effect effect2 bg-lightest-gray p-10 maxwidth400">
-                <div class="thumb"> <img class="img-responsive img-fullwidth" src="images/practice/1.jpg" alt="featured project"  width="476">
-                  <div class="overlay white">
-                    <div class="display-table">
-                      <div class="display-table-cell">
-                        <div class="overlay-details text-center">
-                          <h3 class="text-theme-colored mt-0">Sexual Assault</h3>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="details">
-                    <h4>Sexual Assault</h4>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
-              <div class="box-hover-effect effect2 bg-lightest-gray p-10 maxwidth400">
-                <div class="thumb"> <img class="img-responsive img-fullwidth" src="images/practice/2.jpg" alt="featured project"  width="476">
-                  <div class="overlay white">
-                    <div class="display-table">
-                      <div class="display-table-cell">
-                        <div class="overlay-details text-center">
-                          <h3 class="text-theme-colored mt-0">Sexual Harassment</h3>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="details">
-                    <h4>Sexual Harassment</h4>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
-              <div class="box-hover-effect effect2 bg-lightest-gray p-10 maxwidth400">
-                <div class="thumb"> <img class="img-responsive img-fullwidth" src="images/practice/3.jpg" alt="featured project"  width="476">
-                  <div class="overlay white">
-                    <div class="display-table">
-                      <div class="display-table-cell">
-                        <div class="overlay-details text-center">
-                          <h3 class="text-theme-colored mt-0">Academic Misconduct</h3>
-                         </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="details">
-                    <h4>Academic Misconduct</h4>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
-              <div class="box-hover-effect effect2 bg-lightest-gray p-10 maxwidth400">
-                <div class="thumb"> <img class="img-responsive img-fullwidth" src="images/practice/4.jpg" alt="featured project"  width="476">
-                  <div class="overlay white">
-                    <div class="display-table">
-                      <div class="display-table-cell">
-                        <div class="overlay-details text-center">
-                          <h3 class="text-theme-colored mt-0">Disruptive Behavior</h3>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="details">
-                    <h4>Disruptive Behavior</h4>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
-              <div class="box-hover-effect effect2 bg-lightest-gray p-10 maxwidth400">
-                <div class="thumb"> <img class="img-responsive img-fullwidth" src="images/practice/6.jpg" alt="featured project"  width="476">
-                  <div class="overlay white">
-                    <div class="display-table">
-                      <div class="display-table-cell">
-                        <div class="overlay-details text-center">
-                          <h3 class="text-theme-colored mt-0">Hazing</h3>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="details">
-                    <h4>Hazing</h4>
-                  </div>
-                </div>
-              </div>
-            </div>
-			<div class="col-xs-12 col-sm-6 col-md-4 mb-30">
-              <div class="box-hover-effect effect2 bg-lightest-gray p-10 maxwidth400">
-                <div class="thumb"> <img class="img-responsive img-fullwidth" src="images/practice/5.jpg" alt="featured project"  width="476">
-                  <div class="overlay white">
-                    <div class="display-table">
-                      <div class="display-table-cell">
-                        <div class="overlay-details text-center">
-                          <h3 class="text-theme-colored mt-0">Abuse Behavior</h3>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="details">
-                    <h4>Abuse Behavior</h4>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> 
-    
-	<!-- Section: Numbers -->
-    <section>
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 col-sm-6 col-md-3 mb-md-50">
-            <div class="funfact style-1 pb-15 pt-15 p-20 bg-lighter">
-              <i class="pe-7s-magic-wand text-white mt-5 font-48 pull-right"></i>
-              <h2 class="animate-number text-white mt-0 font-48 appeared" data-value="110" data-animation-duration="3000">110</h2>
-              <div class="clearfix"></div>
-              <h4 class="text-uppercase text-white font-15">Universities</h4>
-            </div>
-          </div>
-		  <div class="col-xs-12 col-sm-6 col-md-3 mb-md-50">
-            <div class="funfact style-1 pb-15 pt-15 p-20 bg-lighter">
-              <i class="pe-7s-smile text-white mt-5 font-48 pull-right" data-text-color="#ccc" style="color: rgb(204, 204, 204);"></i>
-              <h2 class="animate-number text-white mt-0 font-48 appeared" data-value="2275" data-animation-duration="2000">2275</h2>
-              <div class="clearfix"></div>
-              <h4 class="text-uppercase text-white font-15">Members</h4>
-            </div>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-3 mb-md-50">
-            <div class="funfact style-1 pb-15 pt-15 p-20 bg-lighter">
-              <i class="pe-7s-hammer text-white mt-5 font-48 pull-right" data-text-color="#ccc" style="color: rgb(204, 204, 204);"></i>
-              <h2 class="animate-number text-white mt-0 font-48 appeared" data-value="57" data-animation-duration="2500">57</h2>
-              <div class="clearfix"></div>
-              <h4 class="text-uppercase text-white font-15">Cases Recieved</h4>
-            </div>
-          </div>
-          
-          <div class="col-xs-12 col-sm-6 col-md-3 mb-md-50">
-            <div class="funfact style-1 pb-15 pt-15 p-20 bg-lighter">
-              <i class="pe-7s-portfolio text-white mt-5 font-48 pull-right" data-text-color="#ccc" style="color: rgb(204, 204, 204);"></i>
-              <h2 class="animate-number text-white mt-0 font-48 appeared" data-value="51" data-animation-duration="2500">51</h2>
-              <div class="clearfix"></div>
-              <h4 class="text-uppercase text-white font-15">Cases Done</h4>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-	
-    <!-- Section: Attorneys -->
-    <section>
-      <div class="container pb-30">
-        <div class="section-title title-border title-right icon-bg">
-          <div class="row">
-            <div class="col-md-12">
-              <h5 class="mt-0 mb-0 text-uppercase">Our</h5>
-              <h2 class="mt-0 page-title"><i class="fa fa-legal"></i>Expert Lawyers</h2>
-			<p>Following are the list of active lawyers in Students Defender.</p>
-            </div>
-          </div>
-        </div>
-		<div class="section-content pt-30">
-          <div class="row multi-row-clearfix">
-            <div class="col-sm-6 col-md-4 mb-60 xs-text-center">
-              <div class="attorney">
-                <div class="thumb"><img class="img-fullwidth" src="images/team/team1.jpg" alt=""></div>
-                <div class="content text-center">
-                  <h4 class="author mb-0"><a class="text-theme-colored" href="#">Adv: Fayaz Hussain</a></h4>
-                  <h6 class="title text-gray font-12 mt-0 mb-0">Criminal Lawyer</h6>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-4 mb-60 xs-text-center">
-              <div class="attorney">
-                <div class="thumb"><img class="img-fullwidth" src="images/team/team2.jpg" alt=""></div>
-                <div class="content text-center">
-                  <h4 class="author mb-0"><a class="text-theme-colored" href="#">Adv: Tariq Ali</a></h4>
-                  <h6 class="title text-gray font-12 mt-0 mb-0">Civil Lawyer</h6>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-4 mb-60 xs-text-center">
-              <div class="attorney">
-                <div class="thumb"><img class="img-fullwidth" src="images/team/team3.jpg" alt=""></div>
-                <div class="content text-center">
-                  <h4 class="author mb-0"><a class="text-theme-colored" href="#">Adv: Bilawal Bajeer</a></h4>
-                  <h6 class="title text-gray font-12 mt-0 mb-0">Family Lawyer</h6>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-	  </div>
-    </section>
 	
  </div>
   
@@ -403,27 +202,27 @@
       <div class="row multi-row-clearfix">
         <div class="col-sm-6 col-md-6">
           <div class="widget dark"> <img alt="Student Defender Logo" src="images/logo-square.png">
-            <p class="font-16 text-white mt-10 mb-10">Defend, educate and sustain the fundamental rights of students and faculty members at Pakistan's colleges and universities. Students Defender has the experience to guide, advise and protect you through all stages of student conduct disciplinary proceedings and criminal prosecutions.</p>
+            <p class="font-16 text-white mt-10 mb-10">Defend, educate and sustain the fundamental rights of students by transforming the culture that perpetuates harassment and discrimination in all its forms at Pakistan’s colleges and universities. We envision a Ideal environment where all students have the freedom to move through campus and public space, participate in academic life, and reach their full potential.</p>
           </div>
         </div>
         <div class="col-sm-6 col-md-3">
-          <div class="widget">
-            <h3 class="widget-title text-white line-bottom">Who We Are</h3>
+          <div class="widget">           
             <ul class="list-border">
-              <li><a class="font-15 text-white" href="who-we-are.html">About Us</a></li>
-              <li><a class="font-15 text-white" href="legal-team.html">Legal Team</a></li>
-			  <li><a class="font-15 text-white" href="careers.html">Careers</a></li>
-			  
+              <li><a class="font-18 text-white" href="who-we-are.html">Who We Are</a></li>
+              <li><a class="font-18 text-white" href="our-leadership.html">Our Leadership</a></li>
+			  <li><a class="font-18 text-white" href="our-well-wishers.html">Well Wishers</a></li>
+			  <li><a class="font-18 text-white" href="legal-team.html">Legal Team</a></li><li><a class="font-18 text-white" href="careers.html">Our Careers</a></li>
             </ul>
           </div>
-        </div>
+        </div>		
 		<div class="col-sm-6 col-md-3">
-          <div class="widget">
-            <h3 class="widget-title text-white line-bottom">What We Do</h3>
+          <div class="widget">            
             <ul class="list-border">
-              <li><a class="font-15 text-white" href="free-consultation.html">Free Legal Consultation</a></li>
-              <li><a class="font-15 text-white" href="reporting-incident.html">Report Incident</a></li>
-              <li><a class="font-15 text-white" href="student-relief-fund.html">Student Relief Fund</a></li>
+              <li><a class="font-18 text-white" href="free-consultation.html">Free Legal Consultation</a></li>
+              <li><a class="font-18 text-white" href="reporting-incident.html">Report Incident</a></li>
+              <li><a class="font-18 text-white" href="student-relief-fund.html">Student Relief Fund</a></li>
+			  <li><a class="font-18 text-white" href="blog.html">Our Blog</a></li>
+			  <li><a class="font-18 text-white" href="resources.html">Resources</a></li>
             </ul>
           </div>
         </div>	
@@ -432,7 +231,7 @@
     <div class="container-fluid bg-black-222 p-20">
       <div class="row text-center">
         <div class="col-md-12">
-          <p class="text-white font-14 m-0">Copyright &copy;2019 Students Defender. Manage by <a class="font-14 text-white" href="https://www.youthforpakistan.org" target="_blank"><b>Youth For Pakistan</b></a></p>
+          <p class="text-white font-14 m-0">Copyright &copy;2020 Students Defender. Manage by <a class="font-14 text-white" href="https://www.youthforpakistan.org" target="_blank"><b>Youth For Pakistan</b></a></p>
         </div>
       </div>
     </div>

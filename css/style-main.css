@@ -114,7 +114,7 @@ body {
   background-attachment: fixed;
 }
 a {
-  color: #999999;
+  color: #c50b09;
   text-decoration: none;
 }
 a:hover,
@@ -1011,8 +1011,8 @@ section {
 }
 section > .container,
 section > .container-fluid {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 /* -------- Background Image ---------- */
 .no-bg {
@@ -1542,7 +1542,7 @@ section > .container-fluid {
 }
 /* -------- Menuzord ---------- */
 .menuzord-menu > li > a {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Roboto Condensed";
